@@ -4,8 +4,6 @@ class Portal < Formula
   url "https://github.com/ericTsiliacos/portal/releases/download/v2.0.1/portal-v2.0.1-darwin-amd64.tar.gz"
   sha256 "23e05b98bfdf77152b9532b7b8eb13607dfcd1a65803efdc9bd7249269958f2a"
 
-  bottle :unneeded
-
   def install
     bin.install "portal"
   end

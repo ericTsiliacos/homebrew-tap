@@ -1,8 +1,8 @@
 class Portal < Formula
   desc "push and pull code between machines using git"
   homepage "https://github.com/ericTsiliacos/portal"
-  url "https://github.com/ericTsiliacos/portal/releases/download/v2.0.1/portal-v2.0.1-darwin-amd64.tar.gz"
-  sha256 "23e05b98bfdf77152b9532b7b8eb13607dfcd1a65803efdc9bd7249269958f2a"
+  url "https://github.com/ericTsiliacos/portal/releases/download/v2.0.1/portal-v2.2.0-darwin-amd64.tar.gz"
+  sha256 "61e0ecd2c70efca382e73dd03e16da6f2c06a341dd6ce6b046bdd5ce73f80d25"
 
   def install
     bin.install "portal"
